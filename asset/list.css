@@ -1,0 +1,46 @@
+/*-----------------------------------------------------------------------------------*/
+/* Extra Small Devices, Phones */
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .frame {
+        width: 100%;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .frame {
+        width: 100%;
+    }
+}
+
+/*----------------------------------------------------------------------------------*/
+html {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+.card-img-top {
+    padding: 3px;
+}
+
+/*----------------------------------------------------------------------------------*/
+/* Details */
+.product_bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#product_img_top{
+    width: 400px;
+    height: 250px;
+}
+
+.product_img_bottom{
+    width: 125px;
+    height: 100px;
+}
